@@ -5,6 +5,7 @@ namespace MeerSoftware\Environment;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Filesystem\Path;
+use Twig\Loader\LoaderInterface;
 use Quizmatix\MainServer;
 
 class Environment extends \Twig\Environment
