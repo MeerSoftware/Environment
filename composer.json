@@ -1,0 +1,21 @@
+{
+    "name": "meersoftware/environment",
+    "description": "The Environment class replacement for Twig\\Environment",
+    "type": "library",
+    "require": {
+        "symfony/filesystem": "^6.0",
+        "twig/twig": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MeerSoftware\\Environment\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "bariscodefxy",
+            "email": "85716242+bariscodefxy@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
